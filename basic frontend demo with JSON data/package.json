@@ -1,0 +1,18 @@
+{
+  "name": "college-work",
+  "version": "1.0.0",
+  "main": "post_example1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.3",
+    "npm": "^6.13.7"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}

@@ -18,7 +18,22 @@ app.get('/',(req,res)=>{
     res.json("this is working");
 
 });
+
+app.get('/:id',(req,res)=>{
+    //console.log(req.query);
+    //req.body
+    //console.log(req.header)
+    console.log(res.params)
+    res.send('getting root');
+})
     
+app.post('/profile',(req,res)=>{
+
+    console.log(req.body)
+    res.send('sucess');
+
+})
+
 
 app.listen(PORT,()=>{
     console.log("server running at "+PORT);
